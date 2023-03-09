@@ -1,5 +1,5 @@
 const menorValor = 1;
-const maiorValor = 1000;
+const maiorValor = 100;
 
 const numeroScereto = gerarNumeroAleatorio (); /*gravar o número aleatório em uma constante*/
 
