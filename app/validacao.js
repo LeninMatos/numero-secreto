@@ -35,3 +35,4 @@ document.body.addEventListener('click', evento => {
         window.location.reload();
     }
 })
+
