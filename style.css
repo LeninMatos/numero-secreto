@@ -2,13 +2,13 @@
 
 :root {
     --font-family: 'Lato', sans-serif;
-    --bg-color:#0E8388 ;
+    --bg-color: #0E8388;
     --primary-color: #CBE4DE
 }
 
 body {
     background-color: var(--bg-color);
-    color:  var(--primary-color);
+    color: var(--primary-color);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,8 @@ body {
     font-family: var(--font-family);
 }
 
-h1,h2 {
+h1,
+h2 {
     font-size: 5rem;
 }
 
@@ -39,4 +40,12 @@ h3 {
     font-size: 4rem;
     padding: 1rem;
     margin: 2rem;
+}
+
+.btn-jogar-novamente {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
 }
