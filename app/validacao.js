@@ -14,7 +14,10 @@ function verificaSeOChutePossuiUmValorValido(params) {
         <h2>Você Acertou!</h2>
         <h3>O número secreto era ${numeroScereto}</h3>
         `
-        
+    } else if (numero > numeroScereto) {
+        elementoChute.innerHTML += `<div>O número secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>`
+    } else { 
+        elementoChute.innerHTML += `<div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div>` 
     }
 }
 

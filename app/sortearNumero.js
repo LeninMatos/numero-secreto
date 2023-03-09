@@ -1,10 +1,10 @@
 const menorValor = 1;
 const maiorValor = 100;
 
-const numeroScereto = gerarNumeroAleatorio (); /*gravar o número aleatório em uma constante*/
+const numeroScereto = gerarNumeroAleatorio(); /*gravar o número aleatório em uma constante*/
 
 function gerarNumeroAleatorio() {
-    return parseInt(Math.random() *maiorValor+1)
+    return parseInt(Math.random() * maiorValor + 1)
 }
 
 console.log('Numero secreto :', numeroScereto)
